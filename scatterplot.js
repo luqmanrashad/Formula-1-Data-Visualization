@@ -272,24 +272,28 @@ drawPlot();
 function upYear() {
     if(curYear + 1 < 2022)
         {curYear = curYear + 1;}
+    document.getElementById('yearSelected').innerText = curYear;
     svg.selectAll('*').remove();
     drawPlot();
 }
 function downYear() {
     if(curYear - 1 > 1960)
         {curYear = curYear - 1;}
+    document.getElementById('yearSelected').innerText = curYear;
     svg.selectAll('*').remove();
     drawPlot();
 }
 function up5Year() {
     if(curYear + 5 < 2022)
         {curYear = curYear + 5;}
+    document.getElementById('yearSelected').innerText = curYear;
     svg.selectAll('*').remove();
     drawPlot();
 }
 function down5Year() {
     if(curYear - 5 > 1960)
         {curYear = curYear - 5;}
+    document.getElementById('yearSelected').innerText = curYear;
     svg.selectAll('*').remove();
     drawPlot();
 }
