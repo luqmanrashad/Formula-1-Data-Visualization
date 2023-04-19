@@ -1,4 +1,4 @@
-To see this project online and interact with the data visualization, use the following link: https://luqmanrashad.github.io/Formula-1-Data-Visualization/
+To see this project online and interact with the data visualization, use the following link: https://luqmanrashad.github.io/Formula1DataVisualization/
 
 Or, look around the main repository page for the active github page link and click it, then view the deployment
 
